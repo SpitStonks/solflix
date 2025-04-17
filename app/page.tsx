@@ -4,15 +4,19 @@ import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import Image from "next/image";
 
-
-// Function to shuffle an array
 const shuffleArray = (array) => {
-  const shuffled = [...array];
-  for (let i = shuffled.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+  if (typeof window !== 'undefined') {
+    // Ensure the code only runs in the browser (client-side)
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]]; // Swap elements
+    }
+    return shuffled;
+  } else {
+    // If the code is running on the server, return the original array
+    return array;
   }
-  return shuffled;
 };
 
 const SolflixPage = () => {
@@ -105,22 +109,24 @@ const SolflixPage = () => {
   // Shuffle profiles when the component mounts
   useEffect(() => {
     setShuffledProfiles(shuffleArray(profiles));
-  }, []);
+  }, [profiles]);
 
   return (
     <div className="bg-black text-red-600 min-h-screen overflow-hidden">
 
       {/* Logo falling in from top */}
       <motion.div
-        className="flex justify-center pt-6"
+        className="flex justify-center items-center pt-6"
         initial={{ y: -200, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ type: "spring", stiffness: 60, damping: 10 }}
       >
-        <img
+        <Image
           src="https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreibu7icxthdnlbf2bwxdjlf4qa2juh2festyionkvqbnwamh4ur2l4"
           alt="Solflix Logo"
-          className="h-55"
+          width={820} // You can tweak this
+          height={120}
+        
         />
       </motion.div>
 
@@ -133,9 +139,11 @@ const SolflixPage = () => {
 >
   {/* Profile Section (Slightly smaller profile picture) */}
   <div className="flex flex-col items-center cursor-pointer" onClick={handleProfileClick}>
-    <img
+    <Image
       src={selectedProfile ? selectedProfile.image : profiles[4].image}
       alt="Profile"
+      width={220} // You can tweak this
+      height={120}
       className="w-18 h-18 rounded-full object-cover"  // Slightly smaller profile picture
     />
     <div className="text-xl mt-2">Who&apos;s Grinding?</div>
@@ -150,9 +158,11 @@ const SolflixPage = () => {
     style={{ marginLeft: 'auto' }}  // Pushes the new release to the right side
   >
     <span className="text-white font-bold text-lg mb-1">NEW RELEASE!</span>  {/* Larger text for NEW RELEASE! */}
-    <img
+    <Image
       src="https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreicyu4czrjfqsenyaqcw2oat7xuvtucouexhjyf7dgd6y4m4bnflom"
       alt="Solflix Logo"
+      width={220} // You can tweak this
+      height={120}
       className="h-80 w-20 w-auto"  // Slightly smaller image (compared to previous size)
     />
   </a>
@@ -168,9 +178,11 @@ const SolflixPage = () => {
           className="flex flex-col items-center cursor-pointer"
           onClick={() => handleProfileSelect(profile)}
         >
-          <img
+          <Image
             src={profile.image}
             alt={`Profile ${index}`}
+            width={220} // You can tweak this
+            height={120}
             className="w-13 h-13 rounded-full"
           />
           <div className="text-sm mt-2">{profile.name}</div>
@@ -224,9 +236,11 @@ const SolflixPage = () => {
                     damping: 15,
                   }}
                 >
-                  <img
+                  <Image
                     src={poster}
                     alt="Movie Poster"
+                    width={220} // You can tweak this
+                   height={120}
                     className="w-full h-full object-cover rounded-lg transform transition-all duration-300 group-hover:scale-105"
                   />
                 </motion.div>
