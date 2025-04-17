@@ -32,6 +32,7 @@ const SolflixPage = () => {
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreibkiusmy4iiounifsfqjt2o5dqwrg5ptjdm5p4c4sbnn3267ngnge",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiakvr6ykwf5k3ycs5yy7wz377cjymgliwphjchhadovnotw2eilda",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiaekoatnxqgc2i7sua7mxlkunsw6p5t72ozi6gklrtcm4uf6u2tsi",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreie4t27je5mgruvrj6ngqqsgasv7vtgkyqc5sodf7jxuwyr3246hkq",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreidx7wjnyd2o27rx4rv2perppfantdu5spnwcbbxxlb4p7klm2jnk4",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreibtntqvpslfpg4hgyxduoo4zckf443kucchuihf2vlthy4hg66a5a",
   ];
@@ -40,6 +41,7 @@ const SolflixPage = () => {
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreifsdqkysa44wkwieiyeghhyunhkdayuxpsxlu4gbj3aa5qrufjzs4",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreieoht3mfv2m6em64cqbdwkvun3hutwu2ubv6cxaoxynamhcq2m4qi",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreifg3gh33jocyy72q4wonvv25thtqxditv5jv5em36tflyh36cheiy",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreickblbjftutll6fhatvxzkaehcohz7idh5pk2mjouw4jmlkhpjb5m",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiazlu4zlru3ginc2iduxl6its3oqdqboqlzibbs5qf3bjl6pfkrni",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiehyy4j556mljvvwkavn4vheutia6kbuyaxjb4u3cn433na2jvxra",
   ];
@@ -48,6 +50,7 @@ const SolflixPage = () => {
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreidsvwaumsoqadeh2rx4gpa3ocghmwwbqtgiu4nqawhudsrbf6d2ty",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiac6qisuqdf7a6ilxmwjnp2nktjry46kdhtkxcdlop7ftxadohkni",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreib7xpqsfljqyymqs5yr4z7m2m2sl6yvasjk5otvbgsuifkdtrfzta",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreihczec4phezbgcytk73kazqqhluboxbncb3gny75hiq6ituoxh6ye",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreia7svkftpnp7cfuocbodqiutz5tusol4oadgpbsfdchotzc5na7yu",
   ];
   const horrorHoneypots = [
@@ -55,12 +58,15 @@ const SolflixPage = () => {
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreigehfivv2jvyqsyb3oazncvjkazqmfebwhfdwgaboexjvkwmmz6ei",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiauyivyrbrynhznxxsbhqzrixxwl4gurj52uqgfvistwoa3bzs4ki",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreidff7rocizb6ta4inz4v3xx5rdok2xopmocu2qf6puc3a3agnye7i",
-"https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreidh3r47dpwd3q5jzeqnauidwjfits7ap7keldp4nqfadjb4tlhsia",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreic4dlfde223drftkzvjzf2jd5metrgsf627mdcvtxcnqghzokfa4q",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreidh3r47dpwd3q5jzeqnauidwjfits7ap7keldp4nqfadjb4tlhsia",
   ];
   const memeMedia = [
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreibwov7tx63mfxftl7vdg7uvwtt62chjpuhprkr5vuonzjjgie6wcm",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreifscudwmmdhhuxnqntvgrryuk6izjo5ymry5sswfawoql6aegl2gq",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreidrkjvz22onpgdvwnwp3cdzi3oftzb5pdn5rsccud6amvmhkmkaeu",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreicknbuo5nokbsl5k6f7vyoh2oejeavnm2xrwmuclgmnx4lyvrsena",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreic57axyzu5x5z6qgeusgkrsvhspdue6dl2ijngnhm4jeaiweau6yy",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreibx7ukcqtsbi4p7omp4yjch6ga3yldxhgtxez4v7pv2zlcs2tzqcq",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiar7whevitsiblxdwmvks6dw7te2jnubmb3ziwkuireeolpxtl4um",
   ];
@@ -151,7 +157,7 @@ const SolflixPage = () => {
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 0.5 }}
       >
-        <a href="https://x.com" target="_blank" rel="noopener noreferrer">
+        <a href="https://x.com/Solflixandshill" target="_blank" rel="noopener noreferrer">
           <button className="bg-red-600 text-white px-6 py-3 text-xl font-bold rounded">
             SIGN UP IS FREE! SOLFLIX AND SHILL!
           </button>
