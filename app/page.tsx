@@ -47,6 +47,7 @@ const SolflixPage = () => {
   ];
   const rugpullDramas = [
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiaubrejsbbvvpxr6v6wx4tlgnyfx3nhd6yydwimivmmnkr3xdaykq",
+    "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreicgnu5nlpuxpbhs6cxgtawxohso2jrrjflg3c3k7nxjpfqaa73dgu",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreidsvwaumsoqadeh2rx4gpa3ocghmwwbqtgiu4nqawhudsrbf6d2ty",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreiac6qisuqdf7a6ilxmwjnp2nktjry46kdhtkxcdlop7ftxadohkni",
     "https://azure-sophisticated-bobolink-253.mypinata.cloud/ipfs/bafkreib7xpqsfljqyymqs5yr4z7m2m2sl6yvasjk5otvbgsuifkdtrfzta",
